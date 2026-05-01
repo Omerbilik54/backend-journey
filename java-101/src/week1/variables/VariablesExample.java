@@ -47,7 +47,6 @@ public class VariablesExample {
             muzik = scanner.nextInt();
 
 
-
             double ortalama = (mat + fiz + kim + tur + tarih + muzik) / 6;
 
             System.out.println("Ortalamanız : " + ortalama);
