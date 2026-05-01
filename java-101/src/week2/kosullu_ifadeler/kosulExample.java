@@ -1,4 +1,4 @@
-package week1.kosullu_ifadeler;
+package week2.kosullu_ifadeler;
 
 public class kosulExample {
 
