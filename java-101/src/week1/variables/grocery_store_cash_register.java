@@ -3,7 +3,8 @@ package week1.variables;
 import java.util.Scanner;
 
 public class grocery_store_cash_register {
-    public static void main() {
+    public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         double armutkil, armut = 2.14 , elma= 3.67 , elmakil , domat=1.11 , domatkil=0 ,muz=0.95 ,muzkil , patlı=5 ,patlıkil,total;
         System.out.println("Armut kaç kilo : ");
@@ -18,5 +19,11 @@ public class grocery_store_cash_register {
         patlıkil = scanner.nextDouble();
         total=armut*armutkil + elmakil*elma + domatkil*domat + muz*muzkil + patlı*patlıkil;
         System.out.println("Toplam : " + total);
+
     }
 }
+
+
+
+
+
