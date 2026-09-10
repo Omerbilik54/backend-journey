@@ -1,5 +1,4 @@
 package week2.kosullu_ifadeler;
-
 import java.util.Scanner;
 
 public class paswwords {
@@ -23,7 +22,7 @@ public class paswwords {
             if (newPassword.equals(sifre)) {
 
                 System.out.println("Yeni şifreniz eski şifrenizle aynı olamaz . Başka şifre deneyin .");
-            } else {
+            }else {
                 sifre = newPassword;
                 System.out.println("Yeni şifreniz : " + sifre);
             }
@@ -33,6 +32,7 @@ public class paswwords {
             System.out.println("İyi Günler");
     }
 }
+
 
 
 
