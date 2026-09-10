@@ -1,6 +1,6 @@
 package week4;
 
-public class Main {
+public class what_method {
     static int power(int base , int exp){
         int result = 1;
         for(int i=1; i<= exp; i++){
