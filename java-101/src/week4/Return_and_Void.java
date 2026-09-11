@@ -25,6 +25,7 @@ public static void main(String[] args) {
 }
 
 //void: Metot herhangi bir değer döndürmeyecekse kullanılır.
+//void de parametre alabilir . Ama bir tane . Çünkü hesaplama işlerini return yapıyor . Void ne istersen anında onu veriyor. Yani bir değer üretmiyor . 
 //return: Metodun ürettiği değeri metodu çağıran yere geri göndermek için kullanılır.
 
 //Bazen void içinde de return kullanılır . Bu, metodu o noktada sonlandırmak istediği için .
