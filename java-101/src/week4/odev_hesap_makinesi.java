@@ -95,7 +95,8 @@ public class odev_hesap_makinesi {
 
         System.out.println("Sonuç : " + result);
     }
-
+    //Burada metod içinde işlem yapılmasına rağmen void kullanılmış . Mesele şu ; aslında içeride istediği işlemi yapabilir ama dışarı değer döndüremez . Burada ne
+    //ne yapıyor . Burada sonucu ekrana "yazdırıyor".
     static void factorial() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Sayı giriniz :");
