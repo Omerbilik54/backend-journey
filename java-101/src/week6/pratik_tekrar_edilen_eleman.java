@@ -1,4 +1,4 @@
-package week6.Tek_boyutlu_diziler;
+package week6;
 
 import java.util.Arrays;
 
