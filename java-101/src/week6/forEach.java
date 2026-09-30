@@ -23,6 +23,7 @@ public class forEach {
 
         for (int[] i : matris){
             for (int j : i){
+
                 System.out.println(j);
             }
         }
