@@ -10,7 +10,7 @@ public class Car {
         this.model=model;
         this.speed = speed;
         this.color = color;
-        this.type = "Sedan";//niteliklere birşey eklemek istediğimizde constructo içinde eklemek daha mantıklı .
+        this.type = "Sedan";//niteliklere birşey eklemek istediğimizde constructor içinde eklemek daha mantıklı .
         System.out.println("Parametreli kurucu metot oluşturuldu.");
     }
     void increaseSpeed(int increment){
