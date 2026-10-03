@@ -10,5 +10,6 @@ public class Harmonik_hesaplama {
         }
         avarage = dizi.length / sum;
         System.out.println(avarage);
+
     }
 }
