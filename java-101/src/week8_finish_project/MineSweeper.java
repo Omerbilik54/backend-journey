@@ -1,4 +1,5 @@
 package week8_finish_project;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,17 +15,17 @@ public class MineSweeper {
     String[][] gameMap;
 
     public MineSweeper() {
-        readDimension(row,col);
+        readDimension(row, col);
         mineMap = new String[row][col];
         gameMap = new String[row][col];
-        
+
         printBoard();
 
     }
 
-    public void printBoard(){
-        for (int i = 0; i < gameMap.length;i++){
-            for (int j = 0 ; j < gameMap[i].length ; j ++){
+    public void printBoard() {
+        for (int i = 0; i < gameMap.length; i++) {
+            for (int j = 0; j < gameMap[i].length; j++) {
                 System.out.print(gameMap[i][j] + " ");
             }
             System.out.println();
@@ -45,17 +46,17 @@ public class MineSweeper {
 
     }
 
-    public void readDimension(int row , int col) {
+    public void readDimension(int row, int col) {
         System.out.println("Satır sayısını giriniz :");
         row = scan.nextInt();
-        while (row<2) {
+        while (row < 2) {
             System.out.println("Satır sayısı 2'den az olamaz . Tekrar deneyiniz :");
             row = scan.nextInt();
         }
         this.row = row;
         System.out.println("Sütun sayısını giriniz :");
         col = scan.nextInt();
-        while (col<2) {
+        while (col < 2) {
             System.out.println("Sütun sayısı 2'den az olamaz . Tekrar deneyiniz :");
             col = scan.nextInt();
         }
@@ -64,8 +65,7 @@ public class MineSweeper {
     }
 
 
-
-    public void placeMines(){
+    public void placeMines() {
 
     }
 
