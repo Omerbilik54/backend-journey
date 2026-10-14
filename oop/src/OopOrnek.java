@@ -40,6 +40,13 @@ public class OopOrnek {
         // Çalışma anında override edilmiş metot çağrılır.
         Kitap dijital = new DijitalKitap("Clean Code", "Robert C. Martin", 250, "PDF");
         dijital.bilgiYazdir();
+
+        Urun urun = new Urun();
+
+        urun.fiyatBelirle(32432);
+        urun.bilgiYazdirdim();
+
+
     }
 }
 
