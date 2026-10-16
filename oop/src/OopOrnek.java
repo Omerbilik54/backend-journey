@@ -23,18 +23,18 @@
 public class OopOrnek {
 
     public static void main(String[] args) {
-        // new = şablondan NESNE üretmek. Bellekte ayrı bir Kitap örneği doğar.
-        Kitap k1 = new Kitap("Sefiller", "Victor Hugo", 150);
-        Kitap k2 = new Kitap("1984", "George Orwell", 200);
+    // new = şablondan NESNE üretmek. Bellekte ayrı bir Kitap örneği doğar.
+    Kitap k1 = new Kitap("Sefiller", "Victor Hugo", 150);
+    Kitap k2 = new Kitap("1984", "George Orwell", 200);
+    // Aynı sınıftan iki nesne: şablon aynı, VERİLER farklı.  
 
-        // Aynı sınıftan iki nesne: şablon aynı, VERİLER farklı.
-        k1.bilgiYazdir();
-        k2.bilgiYazdir();
-
-        // private alana doğrudan k1.fiyat = -10; yazamazsın (kapsülleme).
-        k1.setFiyat(180);          // geçerli
-        k1.setFiyat(-50);          // geçersiz -> sınıf kendi kuralını uygular
-        System.out.println("k1 yeni fiyat: " + k1.getFiyat());
+    k1.bilgiYazdir();
+    k2.bilgiYazdir();
+     
+    k1.setFiyat(180);          // geçerli
+    // private alana doğrudan k1.fiyat = -10; yazamazsın (kapsülleme).
+    k1.setFiyat(-50);          // geçersiz -> sınıf kendi kuralını uygular
+    System.out.println("k1 yeni fiyat: " + k1.getFiyat());  
 
         // POLİMORFİZM: Değişken tipi Kitap, gerçek nesne DijitalKitap.
         // Çalışma anında override edilmiş metot çağrılır.
